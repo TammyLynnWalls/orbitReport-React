@@ -78,7 +78,15 @@ const satData = [
      launchDate: "1998-11-20",
      orbitType: "Low",
      operational: true
-   }
+   },
+   {
+    id: 11,
+    name: "Tesla Roadster",
+    type: "Space Debris",
+    launchDate: "2018-02-18",
+    orbitType: "High",
+    operational: false
+  }
  ];
  
  export default satData;

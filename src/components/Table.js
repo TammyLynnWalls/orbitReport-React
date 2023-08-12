@@ -1,6 +1,6 @@
 import './styling.css'
 
-const Table = ({ sat }) => {
+const Table = ({sat}) => {
   return (
       <table>
        <thead>
@@ -12,9 +12,8 @@ const Table = ({ sat }) => {
         </tr>
         </thead>
         <tbody>
-        {sat.map(( data, id ) => (
-          
-          
+        {sat.map((data, id) => (
+                   
           <tr key={id}>
             <td>{data.name}</td>
             <td>{data.type}</td>
